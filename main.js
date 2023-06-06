@@ -50,12 +50,13 @@ function auswahl() {
     
 }
 
-function malenBunt(felder) {   
+function malenBunt(felder) {
+     
     for (const element of felder) {
         element.addEventListener('mouseover', () => {
-            const rot = Math.floor(Math.random() * 256);
-            const gruen = Math.floor(Math.random() * 256);
-            const blau = Math.floor(Math.random() * 256);
+            const rot = Math.floor(Math.random() * 255);
+            const gruen = Math.floor(Math.random() * 255);
+            const blau = Math.floor(Math.random() * 255);
             element.style.backgroundColor = `rgb(${rot}, ${gruen}, ${blau})`;
         })        
     }
@@ -86,4 +87,14 @@ function malenBlau (felder) {
 }
 
 start()
+
+array.forEach(element => {
+    
+});
+
+const myFunc = (element) => {
+    console.log(element);
+}
+
+myFunc('hallo')
 
