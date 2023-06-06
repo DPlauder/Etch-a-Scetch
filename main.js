@@ -87,14 +87,3 @@ function malenBlau (felder) {
 }
 
 start()
-
-array.forEach(element => {
-    
-});
-
-const myFunc = (element) => {
-    console.log(element);
-}
-
-myFunc('hallo')
-
